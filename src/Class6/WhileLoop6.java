@@ -4,13 +4,11 @@ public class WhileLoop6 {
     public static void main(String[] args) {
 
 
-        int number=2;
-        while(number<10){
+        int num = 1;
+        for (int i = 0; i < 20; i++) {
+            if (i % 3 != 0 ) {
+                System.out.println(i);}
 
-            if(number%2==0){
-                System.out.println("Even "+number);
-            }
-            number++;
             }
         }
     }
