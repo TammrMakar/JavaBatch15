@@ -1,24 +1,20 @@
 package Class9;
 
-public class ArrayDemo7 {
+public class ArrayDemo8 {
     public static void main(String[] args) {
 
-        // create an array and  store 10,20,30,40,5,6,7,80
-        //add all the element which are multiple of 2
+        // write a program that can tell us how many times the number 10.5 is present in the array
 
-        int[] arr = {10, 20, 30, 4, 5, 6, 7, 80};
-        int sum = 0;
-    
-        for (int i = 0; i < arr.length; i++) {
+        double []arr={10.5,12.0,45,10.5,23,10.5};
+         int count=0;
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]==10.5){
+            count++; //can also be written as count=count+=1;
 
-            if (arr[i] % 2 == 0) {
-                sum = sum + arr[i];
-
-            }
         }
-        System.out.println(sum);
     }
-}
+        System.out.println(count);
+}}
 
 
 

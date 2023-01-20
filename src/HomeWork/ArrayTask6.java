@@ -1,17 +1,24 @@
 package HomeWork;
 
-public class ArrayTask5 {
+public class ArrayTask6 {
     public static void main(String[] args) {
 
-        //Create an array of size 5 on integers and calculate the sum of all elements in an array.
+        //Create an array of countries.
+        // While retrieving all values from an array print capital for each country choose any five countries.
 
-        int []sizes={1,2,3,4,5};
+        String []countries1={"Egypt","USA","France","Germeny","UAE"};
+        String []capitals={"Egypt","USA","France","Germeny","UAE"};
 
-        int sum=0;
-        for (int i = 0; i < sizes.length; i++) {
-            sum=sum+sizes[i];
+        capitals[0]="Cairo";
+        capitals[1]="D.C.";
+        capitals[2]="Paris";
+        capitals[3]="Berlin";
+        capitals[4]="Abo Dhabi";
+
+        for (int i = 0; i < countries1.length ; i++) {
+            System.out.println(capitals[i]);
+            System.out.println("Capital of  "+countries1[i]);
         }
-        System.out.println(sum);
         }
     }
 

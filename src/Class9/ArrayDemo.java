@@ -2,32 +2,25 @@ package Class9;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class ArrayDemo {
     public static void main(String[] args) {
 
-   //4) Write a program to ask a user to enter item they want to buy and the price of that item.
-        // Every time user enters money accumulate the amount and tell the user how much is left to pay off.
-        // If user give more money program should return a change.
-        // Whenever a user done with payments program should say "Thank you for shopping!"
+        String name="slava";
+        String name2="Safi";
+        String name3="Jason";
+        String name4="Nabi";
+        String name5="Anees";
 
-        Scanner scanner=new Scanner(System.in);
-        double totalprice=0;
-        for (int i = 0; i < 1; i++) {
+    String [] names={"Slava","Safi","jason","Nabi","Anees","tamer"};
 
-        System.out.println("Please enter your item and its price");
-        String itemname= scanner.next();
-        double itemprice= scanner.nextDouble();
-       totalprice=totalprice+itemprice;
-            System.out.println("this is the total amount that you have to pay "+totalprice);
-    }
-        System.out.println("Please pay for the items");
-        double amountpaid=scanner.nextDouble();
+        System.out.println(name2);
+        System.out.println(names[1]);
+        System.out.println(names[3]);
+        System.out.println(names[5]);
+       // System.out.println(names[500]);error because there is no name on index number 500\
+       // System.out.println(names[-5]);error because index can't be negative.
+        for(int i=0;i<6;i++){
+            System.out.println(names[i]);
+    }}}
 
-        if(amountpaid>totalprice){
-            double change=amountpaid-totalprice;
-            System.out.println("Hey here is your change ");
-        }else if(amountpaid<totalprice){
-            System.out.println("thanks for your shopping");
-        }
-}}
 

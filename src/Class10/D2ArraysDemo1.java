@@ -1,28 +1,25 @@
 package Class10;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class D2Arrays {
+public class D2ArraysDemo1 {
     public static void main(String[] args) {
-     // a 2D array which can hold 3 one D arrays
-        // each of size 3
 
-        String[][] thomsontrain=new String[3][3];
-        String[] cabin0={"Adam","zafar","Sam"};
-        String[] cabin1={"Nabi","Saud","Anees"};
-        String[] cabin2={"Safi","Abeera","zahra"};
 
-        thomsontrain[0]=cabin0;
-        thomsontrain[1]=cabin1;
-        thomsontrain[2]=cabin2;
+        int[][]matrix={{10,20,30,},
+                       {55,22,45,},
+                        {100,220,450,},
+        };
+        //System.out.println(matrix[2][1]);
 
-        // in the first [] we specify the address of 1 D ARRAY
-        //in the second [] we specify the address of 2 D ARRAY
-        System.out.println(thomsontrain[1][1]);
-        System.out.println(Arrays.toString(thomsontrain[0]));
-
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length ; j++) {
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+        }
     }
-}
+
 
     

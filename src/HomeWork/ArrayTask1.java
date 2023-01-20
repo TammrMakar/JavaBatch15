@@ -1,16 +1,26 @@
 package HomeWork;
 
-public class DoubleComparison {
+public class ArrayTask1 {
     public static void main(String[] args) {
 
-        double value1=3.43;
-        double value2=2.74;
 
-        if(value1>value2){
-            System.out.println("Double value is larger than the second ");
-        }else{
-            System.out.println("It's not larger than the second");
-        }
+        char [] grades={'A','B','C','D','E','F'};
+
+
+            System.out.println(grades[1]);
+
+        System.out.println("*************************");
+//way2
+    char[]grades1=new char[6];
+
+        grades1[0]='A';
+        grades1[1]='B';
+        grades1[2]='C';
+        grades1[3]='D';
+        grades1[4]='E';
+        grades1[5]='F';
+        System.out.println(grades[1]);
+
 
     }
 }

@@ -1,25 +1,20 @@
 package Class9;
 
-public class ArrayDemo2 {
+public class ArrayDemo3 {
     public static void main(String[] args) {
 
-  // 10 20 30 45 50
+     //1) Create an array of chars and store grades into it: A,B,C,D,E,F.
+        // Then print a grade B (use 2 different ways of creating an array).
 
+        char []grades={'A','B','C','D','E','F'};
 
-        int [] numbers={10,20,30,45,50};
-
-        for (int i = 0; i < 5; i++) {
-            System.out.println(numbers[i]);
-
+        for (int i = 0; i < grades.length; i++) {
+            System.out.println(grades[1]);
         }
-        System.out.println("***********");
-        //write code to add all the numbers from an array
+        //way2
 
-        int sum=0;
-        for (int i = 0; i < numbers.length; i++) {
-            sum=sum+numbers[i];
-    }
-        System.out.println(sum);
+
+
 }}
 
 

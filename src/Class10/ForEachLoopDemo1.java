@@ -1,23 +1,15 @@
 package Class10;
 
-public class ArrayDemo1 {
+public class ForEachLoopDemo1 {
     public static void main(String[] args) {
 
-        int[] arr = {10, 20, 30, 40, 50};
-        System.out.println(arr[4]);
-        //can we print two numbers from an array
-        System.out.println(arr[1] + " " + arr[4]);
+        String[] names = {"Slava", "Saud", "Nabi", "Fizzy"};
 
-        System.out.println("****************");
-        // print all the elements from this array using a loop
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-
+        for (String name : names) {
+            System.out.println(name);
         }
-        System.out.println("****************");
-        // enhanced for loop// when ever possible use below loop
-            for (int number : arr) {
-                System.out.println(number);
-            }
 
-    }}
+    }
+        }
+
+

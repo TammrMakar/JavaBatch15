@@ -1,19 +1,17 @@
 package Class9;
 
-public class ArrayDemo8 {
+public class ArrayDemo9 {
     public static void main(String[] args) {
 
-        // write a program that can tell us how many times the number 10.5 is present in the array
+        // I love Java
 
-        double []arr={10.5,12.0,45,10.5,23,10.5};
-         int count=0;
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i]==10.5){
-            count++; //can also be written as count=count+=1;
+        char[] letters={'I',' ','L','o','v','e',' ','J','a','v','a'};
+
+        for (int i = 0; i < letters.length ; i++) {
+            System.out.print(letters[i]);
 
         }
-    }
-        System.out.println(count);
+
 }}
 
 

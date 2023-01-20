@@ -1,25 +1,17 @@
 package Class11;
 
-public class Dog {
+import java.util.Scanner;
 
-    String name;
+public class DogTester {
+    public static void main(String[] args) {
 
-    String breed;
+        //Creating an actual object from the class Scanner
+       // Scanner scanner=new Scanner(System.in);
 
-    int age;
-
-    double weight;
-
-    String color;
-
-    //behaviours//methods//functions
-    void bark(){
-        System.out.println("Woof Woof");
+        // this is how we create the objects of a class
+        Dog dog1=new Dog();
+        dog1.sleep();
     }
-    void sleep(){
-        System.out.println("ZzzzzzzzzZ");
-    }
-    void eat(){
-        System.out.println("Dog is eating......");
-    }
+
+
 }

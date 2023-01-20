@@ -1,16 +1,17 @@
 package HomeWork;
 
-public class ArrayTask4 {
+public class ArrayTask5 {
     public static void main(String[] args) {
 
-     //Create an array that can store names of cars and store 6 elements into it. Print all values from the array.
+        //Create an array of size 5 on integers and calculate the sum of all elements in an array.
 
-        String []cars={"Kia","BMW","Toyata","Nissan","Tesla","lexus"};
+        int []sizes={1,2,3,4,5};
 
-        for (int i = 0; i < cars.length ; i++) {
-            System.out.println(cars[i]);
+        int sum=0;
+        for (int i = 0; i < sizes.length; i++) {
+            sum=sum+sizes[i];
         }
-
+        System.out.println(sum);
         }
     }
 

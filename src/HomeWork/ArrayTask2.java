@@ -1,26 +1,29 @@
 package HomeWork;
 
-public class ArrayTask1 {
+import org.w3c.dom.ls.LSOutput;
+
+public class ArrayTask2 {
     public static void main(String[] args) {
 
+    //Create an array of names and store all names of your group.
+        // then print your name from that array. (Use 2 different ways of creating an array).
 
-        char [] grades={'A','B','C','D','E','F'};
+String []names={"timmy","peter","marina","tommy","tamer"};
 
+        System.out.println(names[4]);
 
-            System.out.println(grades[1]);
+        System.out.println("***************");
 
-        System.out.println("*************************");
-//way2
-    char[]grades1=new char[6];
+        String[]names1=new String[5];
 
-        grades1[0]='A';
-        grades1[1]='B';
-        grades1[2]='C';
-        grades1[3]='D';
-        grades1[4]='E';
-        grades1[5]='F';
-        System.out.println(grades[1]);
+        names1[0] = "timmy";
+        names1[1] = "marina";
+        names1[2] = "tommy";
+        names1[3] = "marina";
+        names1[4] = "tamer";
 
+        System.out.println(names1[4]);
 
+        }
     }
-}
+

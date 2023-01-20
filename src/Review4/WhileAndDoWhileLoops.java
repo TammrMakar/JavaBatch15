@@ -3,7 +3,7 @@ package Review4;
 
 import java.util.Scanner;
 
-public class Loops {
+public class WhileAndDoWhileLoops {
     public static void main(String[] args) {
         //while loop
         int a=1;

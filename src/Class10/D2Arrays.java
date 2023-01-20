@@ -3,32 +3,26 @@ package Class10;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ScannerAndArrays {
+public class D2Arrays {
     public static void main(String[] args) {
+     // a 2D array which can hold 3 one D arrays
+        // each of size 3
 
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Please enter 5 numbers");
-         int []numbers=new int[5];
-         //below code manually store numbers in the array
-       /* numbers[0]=40;
-        numbers[1]=50;
-        numbers[2]=60;
-        numbers[3]=70;
-        numbers[4]=80;*/
+        String[][] thomsontrain=new String[3][3];
+        String[] cabin0={"Adam","zafar","Sam"};
+        String[] cabin1={"Nabi","Saud","Anees"};
+        String[] cabin2={"Safi","Abeera","zahra"};
 
-      ///below code take the numbers from user and store them in the array its good but a lot of code
-        numbers[0]=scanner.nextInt();
-        numbers[1]=scanner.nextInt();
-        numbers[2]=scanner.nextInt();
-        numbers[3]=scanner.nextInt();
-        numbers[4]=scanner.nextInt();
-        
-        //below code uses a normal for loop to ask the use for numbers and store them in the array
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i]=scanner.nextInt();
-        }
-        System.out.println(Arrays.toString(numbers));
-          }
-        }
+        thomsontrain[0]=cabin0;
+        thomsontrain[1]=cabin1;
+        thomsontrain[2]=cabin2;
+
+        // in the first [] we specify the address of 1 D ARRAY
+        //in the second [] we specify the address of 2 D ARRAY
+        System.out.println(thomsontrain[1][1]);
+        System.out.println(Arrays.toString(thomsontrain[0]));
+
+    }
+}
 
     

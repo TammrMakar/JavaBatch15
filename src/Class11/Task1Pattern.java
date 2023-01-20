@@ -1,6 +1,6 @@
 package Class11;
 
-public class Task1 {
+public class Task1Pattern {
     public static void main(String[] args) {
 
       /*
@@ -12,8 +12,6 @@ public class Task1 {
       * *
       *
        */
-
-
         for (int i = 0; i <= 4; i++) {
             for (int j = 0; j <i ; j++) {
                 System.out.print("* ");

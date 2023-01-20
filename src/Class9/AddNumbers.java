@@ -1,6 +1,6 @@
 package Class9;
 
-public class RecapCemo {
+public class AddNumbers {
     public static void main(String[] args) {
 
         /*for (int i = 0; i < 5; i++) {

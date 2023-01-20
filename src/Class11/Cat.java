@@ -1,25 +1,23 @@
 package Class11;
 
-public class Dog {
+public class Cat {
 
-    String name;
+String name;
 
-    String breed;
+String color;
 
-    int age;
+String breed;
 
-    double weight;
+int age;
 
-    String color;
+boolean attitude;
 
-    //behaviours//methods//functions
-    void bark(){
-        System.out.println("Woof Woof");
-    }
-    void sleep(){
-        System.out.println("ZzzzzzzzzZ");
-    }
-    void eat(){
-        System.out.println("Dog is eating......");
-    }
+void speak(){
+    System.out.println("Meow Meow");
+
+}
+void eat(){
+    System.out.println("Eating fish");
+}
+
 }

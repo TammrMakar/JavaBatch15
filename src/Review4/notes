@@ -1,0 +1,8 @@
+Do while loop when we do not know how many times we need to repeat a block of code
+
+break;//stops /break the loop
+continue;//skips current iteration
+
+//nested Loop- loop inside loop
+//inner loop ALWAYS depends on outer loop
+//outer loop controls number of executions for inner loop

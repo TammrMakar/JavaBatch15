@@ -1,32 +1,27 @@
 package Review4;
 
 
-public class ForLoop {
+public class NestedLoops {
     public static void main(String[] args) {
 
-        //Best loop-Used when we know how many times we want to repeat block of code
-        for (int i = 2; i <=20; i+=5) {
-            System.out.println(i);
-        }
-        //break and continue
-        for (int i = 2; i <=20 ; i+=5) {
-            System.out.println(i);
-            if (i==12){
-                System.out.println("i is equal to 12-I am breaking my loop");
-                break;
-            }
-        }
-        //continue-skips current iterations
-        for (int i = 1; i <=10 ; i++) {
-            if (i%3==0){
-                System.out.println(i);
-                continue;//java goes back to the beginning of the loop
-                //and skips the rest of the code that is inside loop body
-            }
-            System.out.println("Hello");
-            System.out.println("how are you?");
-            System.out.println("Hope you well");
-        }
-        }}
+        //nested Loop- loop inside loop
+        //inner loop ALWAYS depends on outer loop
 
+        for (int i = 1; i <=3; i++) {//outer loop
+            System.out.println(i);
+            for (int j = 1; j <=4; j++) {//inner loop
+                System.out.println(j);
+            }
+            }
+        System.out.println("-------------------");
+       //outer loop controls number of compelete internation/executions for  inner loop
+
+        for (int i = 1; i <5 ; i++) {  //outer
+            System.out.println("Hello");
+            for (int j = 1; j <=2 ; j++) {//inner
+                System.out.println("Bye");
+            }
+        }
+        }
+        }
 
