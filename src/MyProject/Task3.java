@@ -2,28 +2,27 @@ package MyProject;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task3 {
     public static void main(String[] args) {
-        //Using Scanner create an array of integer values.
-        // After the array is created, calculate the sum of all stored elements in that array.
-        Scanner scanner = new Scanner(System.in);
-        int numbers = scanner.nextInt();
-        int[] numbers1 = new int[5];
 
-        numbers1[0] = 88;
-        numbers1[1] = 99;
-        numbers1[2] = 55;
-        numbers1[3] = 66;
-        numbers1[4] = 77;
-        numbers1[5] = 44;
+        // Create a 2D array of integer values. Print the sum of all numbers.
 
-        int sum=0;
-        for (int i = 0; i <numbers1.length; i++) {
-            sum=sum+numbers1[i];
-        }
+        int[][] numbers = {{1, 2, 3, 4}, {4, 5, 6, 7, 8}, {8, 9, 10, 11}};
+
+        int sum = 0;
+
+        for (int i = 0; i < numbers.length; i++)
+            for (int j = 0; j < numbers.length; j++) {
+                sum = sum + numbers[i][j];
+            }
         System.out.println(sum);
     }
-}
+        }
+
+
+
+
+
 
 
 

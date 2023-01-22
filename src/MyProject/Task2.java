@@ -2,28 +2,34 @@ package MyProject;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task2 {
     public static void main(String[] args) {
-        //Using Scanner create an array of integer values.
-        // After the array is created, calculate the sum of all stored elements in that array.
+        //2)Using Scanner create an array of countries. When an array is created,
+        //         retrieve all values from it and while retrieving those values print capital
+        //        for each country. (use 2 different loops).
+
         Scanner scanner = new Scanner(System.in);
-        int numbers = scanner.nextInt();
-        int[] numbers1 = new int[5];
-
-        numbers1[0] = 88;
-        numbers1[1] = 99;
-        numbers1[2] = 55;
-        numbers1[3] = 66;
-        numbers1[4] = 77;
-        numbers1[5] = 44;
-
-        int sum=0;
-        for (int i = 0; i <numbers1.length; i++) {
-            sum=sum+numbers1[i];
+        String[] countries = {"USA", "Canada", "UK", "Germany", "Japan"};
+        String[] capitals = {"Washington", "Ottawa", "London", "Berlin", "Tokio"};
+        for (int i = 0; i < countries.length; i++) {
+            System.out.println("The capital of " + countries[i] + " is " + capitals[i] + " ");
         }
-        System.out.println(sum);
+        System.out.println("**");
+
+        Scanner sc = new Scanner(System.in);
+        String[] countries1 = {"USA", "Canada", "UK", "Germany", "Japan"};
+        String[] capitals1 = {"Washington", "Ottawa", "London", "Berlin", "Tokyo"};
+
+        int i = 0;
+        while (i < countries.length) {
+            System.out.println("The capital of " + countries[i] + " is " + capitals[i]);
+            i++;
+        }
     }
 }
+
+
+
 
 
 

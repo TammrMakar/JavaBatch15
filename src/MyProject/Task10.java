@@ -1,21 +1,28 @@
 package MyProject;
 
-public class Task9 {
+public class Task10 {
     public static void main(String[] args) {
 
-        //Write a Java Program to print the first 10 numbers of Fibonacci series.
+        //Maximum and minimum number in the array?
 
-        int n1=0, n2=1,sum=0;
+        int [] numbers={10,20,30,45,50};
 
-        System.out.print(n1+" "+n2);
-        for (int i = 2; i < 10; i++) {
-            sum=n1+n2;
-            System.out.print(" "+sum);
-            n1=n2;
-            n2=sum;
+        int max=numbers[0];
+        int min=numbers[0];
+
+        for (int i = 1; i < numbers.length; i++) {
+                if (numbers[i]>max){
+                     max=numbers[i];
+                }
+                if (numbers[i]<min)
+                {min=numbers[i];
+                }
+            }
+        System.out.println("The maximum number is: " + max);
+        System.out.println("The minimum number is: " + min);
         }
     }
-}
+
 
 
 

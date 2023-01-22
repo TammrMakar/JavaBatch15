@@ -1,27 +1,25 @@
 package MyProject;
 
-public class Task5 {
+public class Task6 {
     public static void main(String[] args) {
 
-        // Create a 2D array of integers.
-        // Develop a program which will calculate the sum of even and odd numbers for that array.
+        // Write a program to swap 2 numbers without a temporary variable?
 
-        int[][] number = {{1, 3, 5, 7, 9, 11, 13, 15, 17, 19}, {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}};
+    int a=20;
+    int b=30;
 
-        int evensum = 0;
-        int oddsum = 0;
+        System.out.println("Before Swap");
+        System.out.println("First value "+a);
+        System.out.println("Second value "+b);
 
-        for (int i = 0; i < number.length; i++) {
-            for (int j = 0; j < number[i].length; j++) {
-                if (number[i][j] % 2 == 0) {
-                    evensum += number[i][j];
-                } else {
-                    oddsum += number[i][j];
-                }
-            }
-        }
-        System.out.println("Sum of even numbers"+ evensum);
-        System.out.println("Sum of even numbers"+oddsum);
+        a=a-b;
+        b=a+b;
+        a=b-a;
+
+        System.out.println("after Swap");
+        System.out.println("First value "+a);
+        System.out.println("Second value "+b);
+
     }
 }
 

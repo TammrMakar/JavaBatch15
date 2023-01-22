@@ -1,27 +1,26 @@
 package MyProject;
 
-public class Task6 {
+public class Task7 {
     public static void main(String[] args) {
 
-        // Write a program to swap 2 numbers without a temporary variable?
+        // Write a java program to check whether a given number is prime or not?
 
-    int a=20;
-    int b=30;
+        // prime number - a number that is divisible only by 1 and itself
+        //example - 2,3,5,7,11,13
 
-        System.out.println("Before Swap");
-        System.out.println("First value "+a);
-        System.out.println("Second value "+b);
-
-        a=a-b;
-        b=a+b;
-        a=b-a;
-
-        System.out.println("after Swap");
-        System.out.println("First value "+a);
-        System.out.println("Second value "+b);
-
+        int num = 13;
+        int count = 0;
+        for (int i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                count++;
+            }
+        }
+        if(count==2){
+        System.out.println("Prime");
+    }else {
+        System.out.println("Not prime");
     }
-}
+}}
 
 
 

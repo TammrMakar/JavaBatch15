@@ -1,23 +1,22 @@
 package MyProject;
 
-import java.util.Scanner;
-
-public class Task3 {
+public class Task4 {
     public static void main(String[] args) {
 
-        // Create a 2D array of integer values. Print the sum of all numbers.
+        // Create a 2D array or integer type where you will store odd and even numbers.
+        // Develop a program which will identify/print the even numbers only.
 
-        int[][] numbers = {{1, 2, 3, 4}, {4, 5, 6, 7, 8}, {8, 9, 10, 11}};
 
-        int sum = 0;
+        int[][] allnumbers = {{1, 3, 5, 7, 9, 11, 13, 15, 17, 19}, {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}};
 
-        for (int i = 0; i < numbers.length; i++)
-            for (int j = 0; j < numbers.length; j++) {
-                sum = sum + numbers[i][j];
+        for (int i = 0; i < allnumbers.length; i++) {
+            for (int j = 0; j < allnumbers[i].length; j++) {
+                if (allnumbers[i][j] % 2 == 0) {
+                System.out.print(allnumbers[i][j] + " ");
             }
-        System.out.println(sum);
-    }
         }
+    }
+}}
 
 
 

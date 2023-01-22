@@ -3,26 +3,16 @@ package PracticeAtHome;
 public class quiz {
     public static void main(String[] args) {
 
-        double discount;
-        char code = 'C' ;
+        int m=2, total=0;
 
-        switch ( code ) {
-            case 'A':
-                discount = 0.0;
+        while(m<6) {
 
-            case 'B':
-                discount = 0.1;
+            total=total+m;
 
-            case 'C':
-                discount = 0.2;
+            m++;
 
-            default:
-                discount = 0.3;
+        }
+
+        System.out.print(total);
         }
     }
-    }
-
-
-
-
-
