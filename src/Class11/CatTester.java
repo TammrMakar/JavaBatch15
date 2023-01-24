@@ -21,6 +21,4 @@ public class CatTester {
 
         System.out.println(cat2.breed);
     }
-
-
 }
