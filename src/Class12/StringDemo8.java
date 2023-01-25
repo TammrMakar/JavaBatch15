@@ -1,17 +1,27 @@
 package Class12;
 
-public class StringDemo7 {
+public class StringDemo8 {
     public static void main(String[] args) {
 
-        String str="I love java";
-        boolean starsWith=str.startsWith("I");
-        System.out.println(starsWith);
-        System.out.println(str.endsWith("Java"));
+        String str="Java is Love";
+       char elena=str.charAt(2);
+       System.out.println(elena);
 
-        //method chaining is when multiple methods are called on the same line
-        //only those methods can be chained which returns a String
-        System.out.println(str.toLowerCase().startsWith("i"));
-    }
-    }
+
+
+        for (int i = 0; i < str.length(); i++) {
+            System.out.println(str.charAt(i));
+
+
+
+            int count=0;
+            for (int j = 0; j <str.length() ; j++) {
+                if(str.charAt(j)=='a'){
+                    count++;
+                }
+            }
+            System.out.println(count);
+        }}}
+
 
 

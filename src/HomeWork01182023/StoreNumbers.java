@@ -1,4 +1,4 @@
-package HomeWork2;
+package HomeWork01182023;
 
 public class StoreNumbers {
     public static void main(String[] args) {

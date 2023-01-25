@@ -24,11 +24,12 @@ public class MoreForLoops {
                 // it should start printing 00:00and end 23:59
             }
         }
-
+        System.out.println("-------------card-----------");
 
 
 
         }
+
         }
 
 

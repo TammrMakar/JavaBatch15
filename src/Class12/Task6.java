@@ -1,22 +1,28 @@
 package Class12;
 
-import java.util.Scanner;
+public class Task6 {
+    public static void main(String[] args) {
 
-public class Car {
 
-    String make;
-    String model;
-    String color;
-    int year;
 
-    void moveForward(){
-        System.out.println("Car is moving forward");
+        String[][]countries={{"USA", "Canada", "Mexico"},
+                {"Brazil","Peru","Argentina","Columbia"},
+                {"Germany","Italy","France","Serbia","Russia","UK"},
+                {"Japan", "Kazakhstan", "Turkey", "Maldives"},
+                {"Egypt", "Nigeria", "South Africa"}
+        };
 
+        int count=0;
+        for (int i = 0; i < countries.length ; i++) {
+            for (int j = 0; j < countries[i].length; j++) {
+                System.out.print(countries[i][j]+" ");
+                count++;
+            }
+            System.out.println();
+        }
+        System.out.println("Total countries"+count);
     }
-    void applyBrakes(){
-        System.out.println("Applying the brakes");
-        System.out.println("Car stopped");
     }
 
-    }
+
 

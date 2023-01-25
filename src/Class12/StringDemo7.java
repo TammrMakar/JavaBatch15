@@ -1,12 +1,16 @@
 package Class12;
 
-public class StringDemo6 {
+public class StringDemo7 {
     public static void main(String[] args) {
 
-        String str="   Java    ";
-        //it removes the spaces from start and end not in between
-        System.out.println(str.trim());
+        String str="I love java";
+        boolean starsWith=str.startsWith("I");
+        System.out.println(starsWith);
+        System.out.println(str.endsWith("Java"));
 
+        //method chaining is when multiple methods are called on the same line
+        //only those methods can be chained which returns a String
+        System.out.println(str.toLowerCase().startsWith("i"));
     }
     }
 

@@ -1,6 +1,6 @@
 package Class12;
 
-public class Phone {
+public class PhoneTester {
 
     String make;
     String model;
@@ -9,7 +9,7 @@ public class Phone {
     boolean eltrice;
 
     void speed() {
-        System.out.println("Speeding card");
+        System.out.println("Speeding car");
     }
 
     void charger() {

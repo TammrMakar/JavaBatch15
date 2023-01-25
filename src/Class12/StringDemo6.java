@@ -1,15 +1,12 @@
 package Class12;
 
-public class StringDemo5 {
+public class StringDemo6 {
     public static void main(String[] args) {
 
-   String str="Java";
-   String str2="JAVA";
+        String str="   Java    ";
+        //it removes the spaces from start and end not in between
+        System.out.println(str.trim());
 
-   boolean areequal=str.equals(str2);
-        System.out.println(areequal);
-        boolean areequal2=str.equalsIgnoreCase(str2);
-        System.out.println(areequal2);
     }
     }
 

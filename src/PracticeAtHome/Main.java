@@ -1,11 +1,14 @@
 package PracticeAtHome;
 
-public class Class {
+public class Main {
 
-    String name;
-    int rollno;
 
-    void friendly(){
-        System.out.println("he is so friendly");
+    String carcolor;
+    int caryear;
+    String carmake;
+
+
+
+
     }
-}
+

@@ -1,20 +1,30 @@
 package Class12;
 
-import java.util.Scanner;
+public class CarTester {
+    public static void main(String[] args) {
+        //Create the object of the class
 
-public class Car {
+        Car bmw=new Car();
+        bmw.make="BMW";
+        bmw.model="I7";
+        bmw.year=2023;
+        bmw.color="Gray";
+        bmw.moveForward();
+        bmw.applyBrakes();
 
-    String make;
-    String model;
-    String color;
-    int year;
+      //Create two classes of your choice and call the methods from those classes
 
-    void moveForward(){
-        System.out.println("Car is moving forward");
+   Car audi=new Car();
+    audi.model="E-tron";
+    audi.make="Audi";
+    audi.year=2022;
+    audi.color="black";
+    audi.applyBrakes();
+    audi.moveForward();
+
     }
-    void applyBrakes(){
-        System.out.println("Applying the brakes");
-    }
+
+
     
     }
 
