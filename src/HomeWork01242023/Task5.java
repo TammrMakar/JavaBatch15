@@ -1,20 +1,22 @@
 package HomeWork01242023;
 
-public class Task4 {
+public class Task5 {
     public static void main(String[] args) {
 
-        //4) How would you reverse a String word by word? for example
-        // input=>This is sentence i want to reverse
-        // output=>sihT si ecnetnes i tnaw ot esrever
+        //5) How would you check if String is palindrome or not? aba=> true
+        //Abbc =>false
 
-        String a = "This is sentence i want to reverse";
+      String input="Abbc";
+       StringBuilder str=new StringBuilder(input);
+       String output=str.reverse().toString();
+        System.out.println("output: "+output);
+     if (input.equals(output)){
+         System.out.println("String is palindrome");
+     }else {
+         System.out.println("String is not palindrome");
+     }
 
-        String reverseWord = "";
-        String[] words = a.split(" ");
-        for (int i = a.length() - 1; i >= 0; i--) {
-
-
-    }}}
+    }}
 
 
 

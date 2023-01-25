@@ -1,22 +1,22 @@
 package HomeWork01242023;
 
-public class Task5 {
+public class Task6 {
     public static void main(String[] args) {
 
-        //5) How would you check if String is palindrome or not? aba=> true
-        //Abbc =>false
+        //6) How would you swap  2 strings without a temporary variable?
 
-      String input="Abbc";
-       StringBuilder str=new StringBuilder(input);
-       String output=str.reverse().toString();
-        System.out.println("output: "+output);
-     if (input.equals(output)){
-         System.out.println("String is palindrome");
-     }else {
-         System.out.println("String is not palindrome");
-     }
+        String a = "Hello";
+        String b = "Ashgar";
+        System.out.println("Strings before swap: a = " + a + " and b = " + b);
+        a = a + b;
 
-    }}
+        b = a.substring(0, a.length() - b.length());
+
+        a = a.substring(b.length());
+
+        System.out.println("Strings before swap: a = " + a + " and b = " + b);
+    }
+}
 
 
 

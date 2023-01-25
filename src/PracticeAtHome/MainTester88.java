@@ -6,10 +6,10 @@ public class MainTester88 {
 
         Main88 husky=new Main88();
 
-         husky.name="husky";
-         husky.bark();
-         husky.run();
-         husky.play();
+        husky.name="husky";
+        husky.bark();
+        husky.run();
+        husky.play();
 
         Main88 Bulldog=new Main88();
 
@@ -25,6 +25,6 @@ public class MainTester88 {
         Labrador.run();
         Labrador.play();
 
-
+        husky.play();
     }
 }

@@ -1,16 +1,14 @@
 package Class13;
 
-public class Task1 {
+public class Task2 {
     public static void main(String[] args) {
 
-        String str="Java";
-        if (!str.isEmpty()){
-            //str.length()%2!=0 checks if number of charcaters are oaa
-            if (str.length()%2!=0&&str.length()>3){
-                int middle=str.length()/2;
-                System.out.println(str.charAt(middle));
-            }
-        }
+       //2) Create a String and print it in reverse order (Sunday → yadnuS).
 
+        String str="sunday";
+        for (int i = str.length()-1; i >=0; i--) {
+            System.out.print(str.charAt(i));
+
+        }
     }
 }

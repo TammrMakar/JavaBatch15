@@ -1,17 +1,14 @@
 package Class13;
 
-public class BuilderDemo {
+public class StringVsStringBuilder {
     public static void main(String[] args) {
 
-
-       String State="VA";
-       String state2="VA";
-       String State3="VA";
-
+        String str="";
+        for (int i = 0; i < 1000; i++) {
+            str=str+i;
 
 
-        StringBuilder stringBuilder=new StringBuilder("sunday");
-        System.out.println(stringBuilder.reverse());
+        }
 
     }
 }

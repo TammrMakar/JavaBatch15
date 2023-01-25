@@ -20,5 +20,6 @@ public class CatTester {
         cat1.speak();
 
         System.out.println(cat2.breed);
+        cat1.speak();
     }
 }

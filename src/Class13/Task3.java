@@ -1,14 +1,35 @@
 package Class13;
 
-public class Task2 {
+public class Task3 {
     public static void main(String[] args) {
 
-       //2) Create a String and print it in reverse order (Sunday → yadnuS).
+        /*3) Write a program that reads two people's first
+        names and if they expecting boy or girl?
+                Based on the input suggests a name for a baby:
+        Example Output:
+        Mom’s first name? Mary
+        Dad’s first name? Daniel
+        Boy or Girl? boy
+        Suggested baby name: DANRY
 
-        String str="sunday";
-        for (int i = str.length()-1; i >=0; i--) {
-            System.out.print(str.charAt(i));
+        Example Output:
+        Mom’s first name? Mary
+        Dad’s first name? Daniel
+        Boy or Girl? girl
+        Suggested baby name: MAIEL*/
 
+        String dadsName = "Zafar";
+        String momsName = "Maryum";
+        String expectation = "girl";
+        String firstHalf = "";
+        String secondHalf = "";
+        if (expectation.equalsIgnoreCase("boy")) {
+            firstHalf = dadsName.substring(0, dadsName.length() / 2);
+            secondHalf = momsName.substring(momsName.length() / 2);
+
+        } else {
+            firstHalf = momsName.substring(0, momsName.length() / 2);
+            secondHalf = dadsName.substring(dadsName.length() / 2);
         }
-    }
-}
+        System.out.println(firstHalf + secondHalf);
+    }}
