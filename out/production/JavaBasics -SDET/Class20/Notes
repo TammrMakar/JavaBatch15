@@ -1,0 +1,53 @@
+this Keyword refers to the current class/object/instance
+
+this can be used to access current class instance variables and methods
+ths() - used with constructor to call current constructor
+
+Inheritance
+What it is ?= process when subclass acquires properties and behavior from the super class
+
+Why to use it ?=for code resuability ,readability ,eliminate code redundancy
+How to implement?=using extends keyword
+
+class parent{
+}
+
+class child extends Parent{
+}
+inheritance types:
+Single-1 child 1 parent
+multilevel-grandparent>parent>child
+hiercarchal- 1parent > multiple children
+
+can a child class have multiple PARENTS?
+using class concept - NO
+
+Access Modifiers:
+4 types
+
+from less restrictive to the most
+
+public=protected>default>private
+
+Private members(variables and methods )Do NOT PARTICIPATE in the inheritance
+
+VARIABLES SYNTAX
+
+OPTIONAL            OPTIONAL            MUST    MUST
+access modifiers  nonaAccess modifier   dataType name;
+
+METHODS SYNTAX
+
+OPTIONAL            OPTIONAL            MUST    MUST
+access modifiers   nonAccess modifier   returnType name()
+
+super Keyword- used to refer to the immediate parent class
+
+can be used with variables and methods
+can  be used with constructors
+
+Flower flower1=new Flower
+new>creates an objet
+flower();>initializes the object
+flower1 > is variable (refrance)
+Flower >type

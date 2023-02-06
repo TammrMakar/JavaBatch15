@@ -1,0 +1,19 @@
+package Class20;
+
+public class SuperClass {
+
+    SuperClass(){
+        System.out.println("I am a constructor from the parent class");
+
+    }
+}
+
+class subClass extends SuperClass{
+
+    subClass(){
+        //super();//makes a call to the parent class constructor
+        System.out.println("I am a child constructor");
+
+    }
+
+}
