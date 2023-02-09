@@ -1,6 +1,6 @@
 package Class11;
 
-public class Cat {
+public class Cat1 {
 
 String name;
 

@@ -1,9 +1,9 @@
 package Class11;
 
-public class CatTester {
+public class Cat1Tester {
     public static void main(String[] args) {
 
-        Cat cat1=new Cat();
+        Cat1 cat1=new Cat1();
         cat1.name="Lego";
         cat1.breed="Van cat";
         cat1.age=2;
@@ -13,7 +13,7 @@ public class CatTester {
 
 
 
-        Cat cat2=new Cat();
+        Cat1 cat2=new Cat1();
         cat2.name="Loki";
         cat2.breed="Domestic";
         cat1.color="White";
