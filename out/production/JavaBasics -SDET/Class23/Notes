@@ -1,0 +1,3 @@
+Final Keyword When used with a variable the value will not be changed.
+when used with a method no one can override that method
+when used with a class no class can inherit from it

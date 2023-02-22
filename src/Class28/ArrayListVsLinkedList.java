@@ -1,9 +1,8 @@
 package Class28;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
-public class LinkedListDemo3 {
+public class ArrayListVsLinkedList {
     public static void main(String[] args) {
 
 

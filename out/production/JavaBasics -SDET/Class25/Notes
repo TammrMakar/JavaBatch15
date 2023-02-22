@@ -1,0 +1,15 @@
+Abstraction:
+Allows us to simplify code by hiding implementation details and only shwoing the functionality to the user.
+in java, we can achieve this in two ways
+1-Abstract classes
+2-interface
+Interface:
+is very similar to a class .we can have private methods static methods default methods abstract method we can be static in an interface.
+we cant have instance fields in an interface. we cant have instance fields in an interface and because we don't have instance fields we also can't have a constructor in an interface.
+
+Why we should learn about interface:
+when objects are closely related to each other and there is a "Is a" relationship between then we should go with abstract classes if we want to use abstraction.
+if objects are not realated to each aother then we should iumplement abstraction with the help of interfaces.
+
+
+
