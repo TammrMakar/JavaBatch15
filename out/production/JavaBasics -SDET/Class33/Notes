@@ -1,0 +1,21 @@
+Exception:
+Exception is an unwanted behavior which occurs at run time and makes our programs terminate abruptly
+Exception handling:
+Exception handling is a mechanism that allows us to avoid runtime errors and helps us convert complex error
+messages to something simpler that a normal user can understand.
+we have new keywords and How do we implement exception handling in java:
+we have new keywords which allow us to handle exceptions in java.
+Blocks of code 1-try 2-catch 3-finally
+Keywords  4-throw 5-throws
+
+Try block:
+in the try block we write the code which may throw an exception
+Catch block:
+contains the backup code , the code that we want to execute in case of failure ,
+it can also contain code to simplify the error messages it can also contain the code which might send a notification
+or an email to the developers or admins in case of failure
+How it works:
+We can have multiple catch blocks with one try block .each handling a differnet error
+we can also put a last catch block with exception class so that if something goes wrong
+and there is no specific catch block to handle it the exception
+Finally block:

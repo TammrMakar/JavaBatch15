@@ -1,0 +1,21 @@
+If we have to read the data from a file manually on our computers what do you need?
+
+1-we need to know where the file is stored on our computer
+2-we need navigate to that folder
+3-A software that understands how the data is stored in those files.
+
+Why do we need .properties file:
+we use these file to store information like user names password URLS database connection etc
+so that this information is secured and is not
+
+To create a new directory:
+1- right click on your project name
+2-new->directory->enter the name.
+3-right-click on your directory ->new->file
+4-give name to your file and an extension as .properties(config.properties)
+
+How to get the path of a file in intellij:
+1-right click on your file
+2-copy path-reference
+3-path from content root
+4-
